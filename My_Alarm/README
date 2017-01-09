@@ -1,0 +1,15 @@
+1. To compile the program "My_Alarm.c", use the following command:
+
+      cc -o My_Alarm My_Alarm.c -D_POSIX_PTHREAD_SEMANTICS -lpthread 
+   
+   or by using the "make" command or just running the "Makefile"
+
+2. Type "My_Alarm" to run the executable code.
+
+3. At the prompt "alarm>", type in the number of seconds at which
+   the alarm should expire, followed by the text of the message.
+   For example:
+
+   alarm> 2 Good Morning!
+
+4. To exit from the program, type Ctrl-d.
